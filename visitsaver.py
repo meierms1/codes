@@ -1,11 +1,20 @@
 import visit
 import os 
+import time 
 
 drt = "countourCurves" 
 prt = "/home/mmeierdo/solidphase/outs/output/"
 path = os.path.join(prt,drt)
-os.mkdir(path)
 
+try: 
+    os.mkdir(path)
+except: 
+    t = int(time.time())
+    drt = "countourCurves" + str(t)
+    path = os.path.join(prt,drt)
+    os.mkdir(path)
+
+    
 a={}
 with open(prt + "metadata") as f:
     for line in f: 
@@ -27,7 +36,7 @@ if a["Status"][0] == "C":
 else:
     g = ""
     for i in a["Status"]:
-        if i <= '9' and i >= '0'"
+        if i <= '9' and i >= '0':
             g += i 
     steps = float(g) / 100 * float(a["stop_time"]) / float(a["amr.plot_dt"])
 
@@ -48,10 +57,10 @@ ContourAtts.wireframe = 0
 SetPlotOptions(ContourAtts)
 DrawPlots()
 
-for i in range(steps):
+for i in range(int(steps)):
     SaveWindowAtts = SaveWindowAttributes()
     SaveWindowAtts.outputToCurrentDirectory = 0
-    SaveWindowAtts.outputDirectory = "/home/mmeierdo/solidphase/outs/output"
+    SaveWindowAtts.outputDirectory = path
     SaveWindowAtts.fileName = "visit"
     SaveWindowAtts.family = 1
     SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
