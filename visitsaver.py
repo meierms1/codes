@@ -3,7 +3,8 @@ import os
 import time 
 
 drt = "countourCurves" 
-prt = "/home/mmeierdo/solidphase/outs/output/"
+prt = "/home/meierms/solidphase/outs/output_mix/"
+#prt = "/home/mmeierdo/solidphase/outs/output_mix/"
 path = os.path.join(prt,drt)
 
 try: 
@@ -39,7 +40,7 @@ else:
         if i <= '9' and i >= '0':
             g += i 
     steps = float(g) / 100 * float(a["stop_time"]) / float(a["amr.plot_dt"])
-
+print(steps)
 OpenDatabase("localhost:/home/mmeierdo/solidphase/outs/output/celloutput.visit", 0)
 
 AddPlot("Contour", "eta", 1, 1)
@@ -72,7 +73,7 @@ for i in range(int(steps)):
     SaveWindowAtts.progressive = 0
     SaveWindowAtts.binary = 0
     SaveWindowAtts.stereo = 0
-    SaveWindowAtts.compression = SaveWindowAtts.None  # None, PackBits, Jpeg, Deflate, LZW
+    #SaveWindowAtts.compression = SaveWindowAtts.None  # None, PackBits, Jpeg, Deflate, LZW
     SaveWindowAtts.forceMerge = 0
     SaveWindowAtts.resConstraint = SaveWindowAtts.ScreenProportions  # NoConstraint, EqualWidthHeight, ScreenProportions
     SaveWindowAtts.pixelData = 1
