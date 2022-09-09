@@ -88,4 +88,20 @@ def curve(fld, drt = "contourCurves", rround = 2):
         else: 
             dxmm2.append(i)
             
-    return time, xx, dxmm2,c 
+    return time, xx, dxmm,c 
+
+
+def outliers(x, bar = 2):
+    xmean = np.mean(x)
+    var = xmean * bar
+    xn = []
+    for i in x:
+        if abs(i) > var: 
+            xn.append(xmean)
+        else:
+            xn.append(i)
+            
+    return xn 
+            
+        
+    

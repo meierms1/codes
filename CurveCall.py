@@ -7,34 +7,48 @@ Created on Fri Sep  9 10:20:52 2022
 """
 import numpy as np
 import matplotlib.pyplot as plt
-from CURVE import curve
+from CURVE import curve, outliers
 
-htime, hm, hspeed, c = curve("output_htpb")
-hmean = np.mean(hspeed)
-aptime, apm, apspeed, c = curve("output_pureap")
-apmean = np.mean(apspeed)
-mtime, mpm, mspeed, c = curve("output_mix")
-mmean = np.mean(mspeed) 
+var = ["outputhtpb", "outputap", "outputmix"] 
+names = ["HTPB","AP","COMB"] 
 
-print(hmean)
-print(apmean)
-print(mmean)
+xsize = 10
+ysize = 8
+bar = 1
 
-plt.figure()
-plt.plot(htime, hm, label = "htpb")
-plt.plot(aptime, apm, label = "AP")
-plt.plot(mtime, mpm, label = "comb")
-plt.legend()
-plt.xlabel("time [s]")
-plt.ylabel("Location [m]")
-plt.title("Interface Location")
+j = 0
+fig1, ax = plt.subplots(figsize=(xsize,ysize))
+fig2, bx = plt.subplots(figsize=(xsize,ysize))
+fig3, cx = plt.subplots(figsize=(xsize,ysize))
 
+for i in var: 
+    time, point, speed, c = curve(i)
+    zero_mean = np.mean(speed)
+    nspeed = outliers(speed, bar=bar)
+    nmean = np.mean(nspeed)
 
-plt.figure()
-plt.plot(htime[:-1], hspeed, label = "HTPB")
-plt.plot(aptime[:-1], apspeed, label = "AP" )
-plt.plot(mtime[:-1], mspeed, label = "comb")
-plt.legend()
-plt.xlabel("time [s] ")
-plt.ylabel("velocity [mm/s]" )
-plt.title("burn rate" )
+    print(names[j] +": --No-Filter: " + str(zero_mean) + " -- Filtered: "  + str(nmean))
+    
+    ax.plot(time, point, label = names[j])
+    bx.plot(time[:-1], speed, label = names[j])
+    cx.plot(time[:-1], nspeed, label = names[j])
+    
+    j += 1
+    
+ax.set_title("Interface Location")
+bx.set_title("Burn Rate")
+cx.set_title("Burn Rate - Outliers Filtered")
+
+ax.set_xlabel("time [s]")
+bx.set_xlabel("time [s]")
+cx.set_xlabel("time [s]")
+
+ax.set_ylabel("Location [mm]")
+bx.set_ylabel("Rate [mm/s]")
+cx.set_ylabel("Rate [mm/s]")
+
+ax.legend()
+bx.legend()
+cx.legend()
+plt.show()   
+    
