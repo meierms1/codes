@@ -5,7 +5,7 @@ import sys
 
 
 fld = sys.argv[1] #"output_mix" 
-drt = "countourCurves" 
+drt = "contourCurves" 
 prt = "/home/meierms/solidphase/outs/"+fld+"/"
 #prt = "/home/mmeierdo/solidphase/outs/output_mix/"
 path = os.path.join(prt,drt)
