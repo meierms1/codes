@@ -42,8 +42,8 @@ def curve(fld, drt = "contourCurves", rround = 2):
 
     dt = float(a["amr.plot_dt"]) 
 
-    print(steps)
-    print(dt)
+    print("N. Steps: " ,steps)
+    print("dt:", dt)
 
     xtime = [0.0]
     time = []
@@ -81,12 +81,7 @@ def curve(fld, drt = "contourCurves", rround = 2):
         dx.append(value)
     
     dxmm = [i*1000 for i in dx]
-    dxmm2 = []
-    for i in dxmm: 
-        if i > 0.8 or i < -4:
-            dxmm2.append(0.0)
-        else: 
-            dxmm2.append(i)
+
             
     return time, xx, dxmm,c 
 

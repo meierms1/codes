@@ -9,12 +9,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from CURVE import curve, outliers
 
-var = ["outputhtpb", "outputap", "outputmix"] 
-names = ["HTPB","AP","COMB"] 
+var = ["outputap400","outputap4-300", "outputap3-350", "output001"] 
+names = ["P=2MPa","P=4MPa", "P=3MPa", "P=3MPa/" ] 
+
+#var = ["outputap"]
+#names = ["AP"]
 
 xsize = 10
 ysize = 8
-bar = 1
+bar = 4
 
 j = 0
 fig1, ax = plt.subplots(figsize=(xsize,ysize))
@@ -31,7 +34,7 @@ for i in var:
     
     ax.plot(time, point, label = names[j])
     bx.plot(time[:-1], speed, label = names[j])
-    cx.plot(time[:-1], nspeed, label = names[j])
+    cx.scatter(time[:-1], nspeed, label = names[j])
     
     j += 1
     
