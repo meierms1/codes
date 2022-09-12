@@ -9,8 +9,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from CURVE import curve, outliers
 
-var = ["outputap400","outputap4-300", "outputap3-350", "output001"] 
-names = ["P=2MPa","P=4MPa", "P=3MPa", "P=3MPa/" ] 
+var = ["outputap400","outputap4-300", "outputap3-350", "outputmix4-700"] 
+names = ["P=2MPa","P=4MPa", "P=3MPa", "mix" ] 
 
 #var = ["outputap"]
 #names = ["AP"]
@@ -34,10 +34,11 @@ for i in var:
     
     ax.plot(time, point, label = names[j])
     bx.plot(time[:-1], speed, label = names[j])
-    cx.scatter(time[:-1], nspeed, label = names[j])
+    cx.plot(time[:-1], nspeed, label = names[j])
     
     j += 1
     
+ 
 ax.set_title("Interface Location")
 bx.set_title("Burn Rate")
 cx.set_title("Burn Rate - Outliers Filtered")
