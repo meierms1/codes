@@ -9,10 +9,50 @@ Created on Thu Sep  8 12:43:25 2022
 import sys 
 import numpy as np
 
-def curve(fld, drt = "contourCurves", rround = 2):
-    
-    path = "/home/meierms/solidphase/outs/"+ fld +"/" 
+def reader(drt, steps, dt, rround = 2):
+    path = "/home/mmeierdo/solidphase/log/contourCurves_" + drt 
+    xtime = [0.0]
+    time = []
+    c = 0
+    for i in range(steps+1):
+        time.append(round(dt*i, rround))
+        
+    for i in range(steps):
+        if i < 10: 
+            add = "000"
+        elif i < 100 and i >=  11:
+            add = "00"
+        elif i < 1000 and i > 101:
+            add = "0"
+        else: 
+            add = ""
+            
+        var = path + "/visit" + add + str(i) + ".curve"
 
+        try:
+            df = np.loadtxt(var)
+            x = df[:,0]
+            local = max(x)
+            xtime.append(local)
+        except:
+            xtime.append(0.0)
+            c += 1
+
+    xx = [1000 * i for i in xtime]
+
+    dx = []
+    for i in range(steps):
+        value = (xtime[i+1] - xtime[i]) / dt
+        dx.append(value)        
+    dxmm = [i*1000 for i in dx]          
+    return time, xx, dxmm,c
+    
+    
+
+def curve(fld, drt = "contourCurves", rround = 2):
+
+    path = "/home/meierms/solidphase/outs/"+ fld +"/" 
+        
     a={}
     with open(path + "metadata") as f:
         for line in f: 

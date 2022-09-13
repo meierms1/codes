@@ -7,17 +7,19 @@ Created on Fri Sep  9 10:20:52 2022
 """
 import numpy as np
 import matplotlib.pyplot as plt
-from CURVE import curve, outliers
+from CURVE import curve, outliers, reader
 
-var = ["outputap400","outputap4-300", "outputap3-350", "outputmix4-700"] 
-names = ["P=2MPa","P=4MPa", "P=3MPa", "mix" ] 
-
+var = ["outputap100","outputap200", "outputap300"] #, "outputmix400", "output500"] 
+names = ["100","200", "300"] #, "400", "500"] 
+st = [100,100,100]# ,100,100]
+dt = [0.1,0.1,0.1]# ,0.1,0.1]
 #var = ["outputap"]
-#names = ["AP"]
+#names = ["AP"]] 4567
 
 xsize = 10
 ysize = 8
 bar = 4
+inlab = True
 
 j = 0
 fig1, ax = plt.subplots(figsize=(xsize,ysize))
@@ -25,7 +27,11 @@ fig2, bx = plt.subplots(figsize=(xsize,ysize))
 fig3, cx = plt.subplots(figsize=(xsize,ysize))
 
 for i in var: 
-    time, point, speed, c = curve(i)
+    print(i)
+    if not inlab:
+        time, point, speed, c = curve(i)
+    else: 
+        time, point, speed, c = reader(i, st[j] , dt[j])
     zero_mean = np.mean(speed)
     nspeed = outliers(speed, bar=bar)
     nmean = np.mean(nspeed)
