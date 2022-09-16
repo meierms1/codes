@@ -10,9 +10,8 @@ import matplotlib.pyplot as plt
 from CURVE import curve, outliers, reader
 import getpass, time
 
-var = ["output05","output20", "output40", "output60"]
-var = ["outputap400", "outputap500"] 
-names = ["P=0.5MPa","P=2.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
+var = ["output05","output20", "output40", "output60", "output" ]
+names = ["P=0.5MPa","P=2.0MPa", "P=4.0MPa", "P=6.0MPa", "packed"] #, "400", "500"] 
 st = [100,100,100]# ,100,100]
 dt = [0.1,0.1,0.1]# ,0.1,0.1]
 #var = ["outputap"]

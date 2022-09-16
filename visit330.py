@@ -3,6 +3,30 @@ import os
 import time 
 import sys
 
+def savepic(path):
+    SaveWindowAtts = SaveWindowAttributes()
+    SaveWindowAtts.outputToCurrentDirectory = 0
+    SaveWindowAtts.outputDirectory = path
+    SaveWindowAtts.fileName = "lasframe"
+    SaveWindowAtts.family = 1
+    SaveWindowAtts.format = SaveWindowAtts.PNG  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
+    SaveWindowAtts.width = 1024
+    SaveWindowAtts.height = 1024
+    SaveWindowAtts.screenCapture = 0
+    SaveWindowAtts.saveTiled = 0    
+    SaveWindowAtts.quality = 80
+    SaveWindowAtts.progressive = 0
+    SaveWindowAtts.binary = 0
+    SaveWindowAtts.stereo = 0
+    SaveWindowAtts.compression = SaveWindowAtts.NONE  # NONE, PackBits, Jpeg, Deflate, LZW
+    SaveWindowAtts.forceMerge = 0
+    SaveWindowAtts.resConstraint = SaveWindowAtts.ScreenProportions  # NoConstraint, EqualWidthHeight, ScreenProportions
+    SaveWindowAtts.pixelData = 1
+    SaveWindowAtts.advancedMultiWindowSave = 0
+    SaveWindowAtts.opts.types = ()
+    SaveWindowAtts.opts.help = ""
+    SetSaveWindowAttributes(SaveWindowAtts)
+    SaveWindow()
 
 fld = sys.argv[1] #"output_mix" 
 drt = "contourCurves" 
@@ -14,7 +38,7 @@ try:
     os.mkdir(path)
 except: 
     t = int(time.time())
-    drt = "countourCurves" + str(t)
+    drt = "contourCurves" + str(t)
     path = os.path.join(prt,drt)
     os.mkdir(path)
 
@@ -87,5 +111,9 @@ for i in range(int(steps)):
     SaveWindowAtts.opts.help = ""
     SetSaveWindowAttributes(SaveWindowAtts)
     SaveWindow()
+    if i == steps-1: 
+        savepic(path)
     TimeSliderNextState()
+
+
 

@@ -3,7 +3,7 @@ ScriptVersion = "3.3.0"
 if ScriptVersion != Version():
     print "This script is for VisIt %s. It may not work with version %s" % (ScriptVersion, Version())
 ShowAllWindows()
-OpenDatabase("localhost:/home/meierms/solidphase/outs/output/celloutput.visit", 0)
+OpenDatabase("localhost:/home/meierms/solidphase/outs/output05/celloutput.visit", 0)
 # The UpdateDBPluginInfo RPC is not supported in the VisIt module so it will not be logged.
 AddPlot("Contour", "eta", 1, 1)
 ContourAtts = ContourAttributes()
@@ -103,7 +103,7 @@ SetPlotOptions(ContourAtts)
 DrawPlots()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -207,7 +207,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -311,7 +311,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -415,7 +415,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -519,7 +519,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -623,7 +623,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -727,7 +727,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -831,7 +831,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -935,7 +935,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1039,7 +1039,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1143,7 +1143,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1247,7 +1247,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1351,7 +1351,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1455,7 +1455,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1559,7 +1559,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1663,7 +1663,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1767,7 +1767,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1871,7 +1871,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -1975,7 +1975,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2079,7 +2079,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2183,7 +2183,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2287,7 +2287,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2391,7 +2391,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2495,7 +2495,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2599,7 +2599,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2703,7 +2703,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2807,7 +2807,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -2911,7 +2911,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3015,7 +3015,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3119,7 +3119,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3223,7 +3223,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3327,7 +3327,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3431,7 +3431,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3535,7 +3535,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3639,7 +3639,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3743,7 +3743,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3847,7 +3847,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -3951,7 +3951,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4055,7 +4055,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4159,7 +4159,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4263,7 +4263,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4367,7 +4367,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4471,7 +4471,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4575,7 +4575,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4679,7 +4679,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4783,7 +4783,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4887,7 +4887,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -4991,7 +4991,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5095,7 +5095,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5199,7 +5199,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5303,7 +5303,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5407,7 +5407,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5511,7 +5511,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5615,7 +5615,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5719,7 +5719,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5823,7 +5823,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -5927,7 +5927,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6031,7 +6031,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6135,7 +6135,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6239,7 +6239,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6343,7 +6343,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6447,7 +6447,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6551,7 +6551,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6655,7 +6655,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6759,7 +6759,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6863,7 +6863,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -6967,7 +6967,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7071,7 +7071,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7175,7 +7175,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7279,7 +7279,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7383,7 +7383,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7487,7 +7487,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7591,7 +7591,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7695,7 +7695,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7799,7 +7799,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -7903,7 +7903,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8007,7 +8007,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8111,7 +8111,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8215,7 +8215,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8319,7 +8319,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8423,7 +8423,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8527,7 +8527,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8631,7 +8631,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8735,7 +8735,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8839,7 +8839,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -8943,7 +8943,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9047,7 +9047,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9151,7 +9151,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9255,7 +9255,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9359,7 +9359,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9463,7 +9463,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9567,7 +9567,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9671,7 +9671,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9775,7 +9775,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9879,7 +9879,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -9983,7 +9983,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10087,7 +10087,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10191,7 +10191,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10295,7 +10295,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10399,7 +10399,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10503,7 +10503,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10607,7 +10607,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10711,7 +10711,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10815,7 +10815,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -10919,7 +10919,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11023,7 +11023,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11127,7 +11127,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11231,7 +11231,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11335,7 +11335,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11439,7 +11439,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11543,7 +11543,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11647,7 +11647,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11751,7 +11751,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11855,7 +11855,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -11959,7 +11959,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12063,7 +12063,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12167,7 +12167,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12271,7 +12271,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12375,7 +12375,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12479,7 +12479,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12583,7 +12583,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12687,7 +12687,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12791,7 +12791,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12895,7 +12895,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -12999,7 +12999,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13103,7 +13103,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13207,7 +13207,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13311,7 +13311,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13415,7 +13415,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13519,7 +13519,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13623,7 +13623,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13727,7 +13727,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13831,7 +13831,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -13935,7 +13935,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14039,7 +14039,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14143,7 +14143,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14247,7 +14247,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14351,7 +14351,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14455,7 +14455,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14559,7 +14559,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14663,7 +14663,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14767,7 +14767,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14871,7 +14871,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -14975,7 +14975,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15079,7 +15079,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15183,7 +15183,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15287,7 +15287,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15391,7 +15391,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15495,7 +15495,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15599,7 +15599,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15703,7 +15703,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15807,7 +15807,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -15911,7 +15911,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16015,7 +16015,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16119,7 +16119,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16223,7 +16223,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16327,7 +16327,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16431,7 +16431,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16535,7 +16535,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16639,7 +16639,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16743,7 +16743,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16847,7 +16847,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -16951,7 +16951,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17055,7 +17055,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17159,7 +17159,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17263,7 +17263,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17367,7 +17367,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17471,7 +17471,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17575,7 +17575,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17679,7 +17679,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17783,7 +17783,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17887,7 +17887,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -17991,7 +17991,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18095,7 +18095,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18199,7 +18199,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18303,7 +18303,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18407,7 +18407,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18511,7 +18511,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18615,7 +18615,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18719,7 +18719,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18823,7 +18823,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -18927,7 +18927,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19031,7 +19031,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19135,7 +19135,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19239,7 +19239,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19343,7 +19343,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19447,7 +19447,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19551,7 +19551,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19655,7 +19655,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19759,7 +19759,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19863,7 +19863,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -19967,7 +19967,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20071,7 +20071,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20175,7 +20175,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20279,7 +20279,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20383,7 +20383,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20487,7 +20487,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20591,7 +20591,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20695,7 +20695,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20799,7 +20799,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -20903,7 +20903,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21007,7 +21007,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21111,7 +21111,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21215,7 +21215,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21319,7 +21319,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21423,7 +21423,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21527,7 +21527,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21631,7 +21631,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21735,7 +21735,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21839,7 +21839,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -21943,7 +21943,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22047,7 +22047,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22151,7 +22151,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22255,7 +22255,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22359,7 +22359,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22463,7 +22463,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22567,7 +22567,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22671,7 +22671,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22775,7 +22775,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22879,7 +22879,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -22983,7 +22983,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23087,7 +23087,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23191,7 +23191,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23295,7 +23295,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23399,7 +23399,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23503,7 +23503,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23607,7 +23607,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23711,7 +23711,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23815,7 +23815,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -23919,7 +23919,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24023,7 +24023,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24127,7 +24127,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24231,7 +24231,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24335,7 +24335,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24439,7 +24439,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24543,7 +24543,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24647,7 +24647,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24751,7 +24751,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24855,7 +24855,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -24959,7 +24959,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25063,7 +25063,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25167,7 +25167,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25271,7 +25271,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25375,7 +25375,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25479,7 +25479,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25583,7 +25583,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25687,7 +25687,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25791,7 +25791,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25895,7 +25895,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -25999,7 +25999,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26103,7 +26103,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26207,7 +26207,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26311,7 +26311,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26415,7 +26415,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26519,7 +26519,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26623,7 +26623,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26727,7 +26727,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26831,7 +26831,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -26935,7 +26935,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27039,7 +27039,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27143,7 +27143,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27247,7 +27247,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27351,7 +27351,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27455,7 +27455,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27559,7 +27559,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27663,7 +27663,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27767,7 +27767,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27871,7 +27871,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -27975,7 +27975,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28079,7 +28079,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28183,7 +28183,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28287,7 +28287,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28391,7 +28391,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28495,7 +28495,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28599,7 +28599,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28703,7 +28703,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28807,7 +28807,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -28911,7 +28911,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29015,7 +29015,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29119,7 +29119,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29223,7 +29223,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29327,7 +29327,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29431,7 +29431,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29535,7 +29535,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29639,7 +29639,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29743,7 +29743,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29847,7 +29847,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -29951,7 +29951,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30055,7 +30055,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30159,7 +30159,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30263,7 +30263,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30367,7 +30367,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30471,7 +30471,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30575,7 +30575,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30679,7 +30679,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30783,7 +30783,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30887,7 +30887,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -30991,7 +30991,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31095,7 +31095,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31199,7 +31199,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31303,7 +31303,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31407,7 +31407,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31511,7 +31511,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31615,7 +31615,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31719,7 +31719,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31823,7 +31823,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -31927,7 +31927,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32031,7 +32031,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32135,7 +32135,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32239,7 +32239,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32343,7 +32343,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32447,7 +32447,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32551,7 +32551,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32655,7 +32655,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32759,7 +32759,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32863,7 +32863,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -32967,7 +32967,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33071,7 +33071,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33175,7 +33175,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33279,7 +33279,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33383,7 +33383,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33487,7 +33487,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33591,7 +33591,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33695,7 +33695,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33799,7 +33799,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33903,7 +33903,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34007,7 +34007,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34111,7 +34111,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34215,7 +34215,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34319,7 +34319,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34423,7 +34423,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34527,7 +34527,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34631,7 +34631,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34735,7 +34735,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34839,7 +34839,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -34943,7 +34943,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35047,7 +35047,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35151,7 +35151,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35255,7 +35255,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35359,7 +35359,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35463,7 +35463,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35567,7 +35567,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35671,7 +35671,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35775,7 +35775,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35879,7 +35879,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -35983,7 +35983,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36087,7 +36087,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36191,7 +36191,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36295,7 +36295,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36399,7 +36399,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36503,7 +36503,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36607,7 +36607,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36711,7 +36711,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36815,7 +36815,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -36919,7 +36919,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37023,7 +37023,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37127,7 +37127,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37231,7 +37231,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37335,7 +37335,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37439,7 +37439,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37543,7 +37543,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37647,7 +37647,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37751,7 +37751,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37855,7 +37855,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -37959,7 +37959,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38063,7 +38063,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38167,7 +38167,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38271,7 +38271,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38375,7 +38375,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38479,7 +38479,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38583,7 +38583,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38687,7 +38687,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38791,7 +38791,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38895,7 +38895,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -38999,7 +38999,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39103,7 +39103,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39207,7 +39207,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39311,7 +39311,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39415,7 +39415,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39519,7 +39519,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39623,7 +39623,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39727,7 +39727,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39831,7 +39831,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -39935,7 +39935,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40039,7 +40039,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40143,7 +40143,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40247,7 +40247,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40351,7 +40351,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40455,7 +40455,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40559,7 +40559,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40663,7 +40663,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40767,7 +40767,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40871,7 +40871,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -40975,7 +40975,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41079,7 +41079,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41183,7 +41183,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41287,7 +41287,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41391,7 +41391,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41495,7 +41495,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41599,7 +41599,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41703,7 +41703,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41807,7 +41807,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -41911,7 +41911,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42015,7 +42015,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42119,7 +42119,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42223,7 +42223,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42327,7 +42327,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42431,7 +42431,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42535,7 +42535,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42639,7 +42639,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42743,7 +42743,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42847,7 +42847,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -42951,7 +42951,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43055,7 +43055,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43159,7 +43159,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43263,7 +43263,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43367,7 +43367,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43471,7 +43471,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43575,7 +43575,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43679,7 +43679,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43783,7 +43783,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43887,7 +43887,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -43991,7 +43991,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44095,7 +44095,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44199,7 +44199,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44303,7 +44303,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44407,7 +44407,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44511,7 +44511,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44615,7 +44615,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44719,7 +44719,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44823,7 +44823,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -44927,7 +44927,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45031,7 +45031,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45135,7 +45135,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45239,7 +45239,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45343,7 +45343,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45447,7 +45447,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45551,7 +45551,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45655,7 +45655,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45759,7 +45759,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45863,7 +45863,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -45967,7 +45967,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46071,7 +46071,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46175,7 +46175,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46279,7 +46279,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46383,7 +46383,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46487,7 +46487,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46591,7 +46591,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46695,7 +46695,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46799,7 +46799,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -46903,7 +46903,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47007,7 +47007,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47111,7 +47111,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47215,7 +47215,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47319,7 +47319,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47423,7 +47423,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47527,7 +47527,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47631,7 +47631,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47735,7 +47735,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47839,7 +47839,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -47943,7 +47943,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48047,7 +48047,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48151,7 +48151,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48255,7 +48255,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48359,7 +48359,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48463,7 +48463,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48567,7 +48567,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48671,7 +48671,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48775,7 +48775,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48879,7 +48879,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -48983,7 +48983,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49087,7 +49087,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49191,7 +49191,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49295,7 +49295,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49399,7 +49399,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49503,7 +49503,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49607,7 +49607,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49711,7 +49711,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49815,7 +49815,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -49919,7 +49919,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50023,7 +50023,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50127,7 +50127,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50231,7 +50231,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50335,7 +50335,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50439,7 +50439,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50543,7 +50543,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50647,7 +50647,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50751,7 +50751,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50855,7 +50855,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -50959,7 +50959,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51063,7 +51063,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51167,7 +51167,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51271,7 +51271,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51375,7 +51375,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51479,7 +51479,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51583,7 +51583,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51687,7 +51687,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51791,7 +51791,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51895,7 +51895,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -51999,7 +51999,7 @@ SaveWindow()
 TimeSliderNextState()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "visit"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -52102,7 +52102,7 @@ SetSaveWindowAttributes(SaveWindowAtts)
 SaveWindow()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output/contourCurves"
+SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/output05/contourCurves"
 SaveWindowAtts.fileName = "lasframe"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.PNG  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
