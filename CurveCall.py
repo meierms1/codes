@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 from CURVE import curve, outliers, reader
 import getpass, time
 
-var = ["output05","output20", "output40", "output60", "output" ]
-names = ["P=0.5MPa","P=2.0MPa", "P=4.0MPa", "P=6.0MPa", "packed"] #, "400", "500"] 
+var = ["output_ap2","output_ap3", "output_ap4", "output_ap6"]
+names = ["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
 st = [100,100,100]# ,100,100]
 dt = [0.1,0.1,0.1]# ,0.1,0.1]
 #var = ["outputap"]
@@ -32,6 +32,9 @@ fig3, cx = plt.subplots(figsize=(xsize,ysize))
 
 h = time.localtime()
 name = "/home/meierms/solidphase/outs/Record_" + str(h[2]) + "_" + str(h[3]) + "_" + str(h[4])
+
+#with open(name, "a") as namei: 
+#    np.savetxt(var[0] + var[1])
 
 for i in var: 
     print(i)
