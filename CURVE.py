@@ -82,6 +82,12 @@ def curve(fld, drt = "contourCurves", rround = 2):
 
     dt = float(a["amr.plot_dt"]) 
 
+    try: 
+        print("zeta: ", a["phi.zeta_0"])
+    except: 
+        pass
+    print("Pressure: ", a["pressure.P"])
+    print("Type: ", a["phi.ic.type"])
     print("N. Steps: " ,steps)
     print("dt:", dt)
 
