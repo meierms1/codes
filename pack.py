@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
-import os, getpass
+import os
+import getpass
 import openmc
 settings = openmc.Settings()
 settings.verbosity = 10
@@ -12,6 +13,7 @@ import uuid
 import datetime
 
 lusr = getpass.getuser()
+spath = "/home/" + lusr + "/solidphase/inputs/pack" 
 
 parser = argparse.ArgumentParser(description='Generate Packed Spheres');
 parser.add_argument('--radius', default=0.0075, type=float, help='Radius')
@@ -19,20 +21,20 @@ parser.add_argument('--pf', default=0.3, type=float, help='Packing Factor')
 parser.add_argument('--seed', default=1, type=int, help='Randomization seed')
 args=parser.parse_args()
 
-geometry_prob_lo = [0.0,-0.8, -0.8]
-geometry_prob_hi = [4.0, 0.8, 0.8]
+geometry_prob_lo = [0.0,-0.1, -0.1]
+geometry_prob_hi = [0.4, 0.1, 0.1]
 
 
-db = simba.open()
+db = simba.open(spath)
 table = db.addTable('Packings')
 ct = datetime.datetime.now()
 
 record = dict()
 record['HASH'] = str(uuid.uuid4())
 file_name = str(ct.timestamp())
-record['DIR'] = "/home/" +  lusr + "solidphase/inputs/pack/" + file_name
+record['DIR'] = "/home/" +  lusr + "/solidphase/inputs/pack/" + file_name
 record['Time'] = str(ct)
-os.mkdir("../" + record['DIR'])
+os.mkdir(record['DIR'])
 record['radius'] = args.radius
 record['packing_factor'] = args.pf
 record['geometry_prob_lo'] = str(geometry_prob_lo)
@@ -64,8 +66,8 @@ print(result)
 
 
 circ = linspace(0,2*pi)
-f2d = open("../" + record['DIR'] + "/2d_z0.000.xyzr".format(packing_factor),"w")
-f3d = open("../" + record['DIR'] + "/3d.xyzr".format(packing_factor),"w")
+f2d = open(record['DIR'] + "/2d_z0.000.xyzr".format(packing_factor),"w")
+f3d = open(record['DIR'] + "/3d.xyzr".format(packing_factor),"w")
 fig = pylab.figure()
 ax=fig.add_subplot()
 ax.set_aspect(1)
@@ -86,14 +88,9 @@ for x0 in result:
 
     ax.plot(x+reff*cos(circ),y+reff*sin(circ))
 
-fig.savefig("../" + record['DIR']+"/thumbnail.png")
+fig.savefig(record['DIR']+"/thumbnail.png")
 f2d.close()
 f3d.close()
-
-finfo = open("../" + record['DIR'] + "/info", "w")
-finfo.write(record)
-fingo.close()
-
 
 vol = (geometry_prob_hi[1]-geometry_prob_lo[1])*(geometry_prob_hi[0]-geometry_prob_lo[0])
 
@@ -101,5 +98,8 @@ vol_frac = vol_sph / vol
 print(vol_frac)
 record['vol_frac'] = vol_frac
 
+with open(record['DIR'] + "/info", "a") as finfo:
+    finfo.write(str(record))
+#finfo.close()
 
 table.update(record)
