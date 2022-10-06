@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from CURVE import curve, outliers, reader
 import getpass, time
 
-var = ["output_ap2","output_ap3", "output_ap4", "output_ap6"]
+var = ["output_1","output_2", "output_02", "output_002"]
 names = ["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
 st = [100,100,100]# ,100,100]
 dt = [0.1,0.1,0.1]# ,0.1,0.1]
@@ -49,7 +49,7 @@ for i in var:
     hmean = np.mean(nspeed[z:])
 
     print(names[j] +": --No-Filter: " + str(zero_mean) + " --Filtered: "  + str(nmean) + " --Hon: " + str(hmean))
-    
+    print(max(point))
     ax.plot(time_, point, label = names[j])
     bx.plot(time_[:-1], speed, label = names[j])
     cx.plot(time_[:-1], nspeed, label = names[j])
