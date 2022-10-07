@@ -1,27 +1,24 @@
-# Visit 3.3.0 log file
-ScriptVersion = "3.3.0"
+# Visit 3.1.4 log file
+ScriptVersion = "3.1.4"
 if ScriptVersion != Version():
     print "This script is for VisIt %s. It may not work with version %s" % (ScriptVersion, Version())
 ShowAllWindows()
-OpenDatabase("localhost:/home/meierms/solidphase/outs/autput/celloutput.visit", 0)
+OpenDatabase("localhost:/home/meierms/solidphase/outs/output/celloutput.visit", 0)
 # The UpdateDBPluginInfo RPC is not supported in the VisIt module so it will not be logged.
-SetTimeSliderState(20)
 AddPlot("Curve", "operators/Lineout/temp", 1, 1)
-SetActivePlots(0)
 LineoutAtts = LineoutAttributes()
 LineoutAtts.point1 = (0, 0, 0)
-LineoutAtts.point2 = (1, 1, 0)
+LineoutAtts.point2 = (0.4, 0, 0)
 LineoutAtts.interactive = 0
 LineoutAtts.ignoreGlobal = 0
 LineoutAtts.samplingOn = 0
 LineoutAtts.numberOfSamplePoints = 50
 LineoutAtts.reflineLabels = 0
-SetOperatorOptions(LineoutAtts, 0, 1)
-SetActivePlots(0)
+SetOperatorOptions(LineoutAtts, -1, 1)
 DrawPlots()
 SaveWindowAtts = SaveWindowAttributes()
 SaveWindowAtts.outputToCurrentDirectory = 0
-SaveWindowAtts.outputDirectory = "/home/meierms/solidphase/outs/autput/contourCurves1664913955"
+SaveWindowAtts.outputDirectory = "/home/mmeierdo/solidphase/outs/output/contourCurves1665086439"
 SaveWindowAtts.fileName = "heatprofile"
 SaveWindowAtts.family = 1
 SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
@@ -33,7 +30,7 @@ SaveWindowAtts.quality = 80
 SaveWindowAtts.progressive = 0
 SaveWindowAtts.binary = 0
 SaveWindowAtts.stereo = 0
-SaveWindowAtts.compression = SaveWindowAtts.NONE  # NONE, PackBits, Jpeg, Deflate, LZW
+SaveWindowAtts.compression = SaveWindowAtts.None  # None, PackBits, Jpeg, Deflate, LZW
 SaveWindowAtts.forceMerge = 0
 SaveWindowAtts.resConstraint = SaveWindowAtts.ScreenProportions  # NoConstraint, EqualWidthHeight, ScreenProportions
 SaveWindowAtts.pixelData = 1
@@ -86,4 +83,39 @@ SaveWindowAtts.subWindowAtts.win9.omitWindow = 0
 SaveWindowAtts.subWindowAtts.win10.position = (0, 0)
 SaveWindowAtts.subWindowAtts.win10.size = (128, 128)
 SaveWindowAtts.subWindowAtts.win10.layer = 0
-SaveWindowAtts.
+SaveWindowAtts.subWindowAtts.win10.transparency = 0
+SaveWindowAtts.subWindowAtts.win10.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win11.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win11.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win11.layer = 0
+SaveWindowAtts.subWindowAtts.win11.transparency = 0
+SaveWindowAtts.subWindowAtts.win11.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win12.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win12.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win12.layer = 0
+SaveWindowAtts.subWindowAtts.win12.transparency = 0
+SaveWindowAtts.subWindowAtts.win12.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win13.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win13.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win13.layer = 0
+SaveWindowAtts.subWindowAtts.win13.transparency = 0
+SaveWindowAtts.subWindowAtts.win13.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win14.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win14.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win14.layer = 0
+SaveWindowAtts.subWindowAtts.win14.transparency = 0
+SaveWindowAtts.subWindowAtts.win14.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win15.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win15.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win15.layer = 0
+SaveWindowAtts.subWindowAtts.win15.transparency = 0
+SaveWindowAtts.subWindowAtts.win15.omitWindow = 0
+SaveWindowAtts.subWindowAtts.win16.position = (0, 0)
+SaveWindowAtts.subWindowAtts.win16.size = (128, 128)
+SaveWindowAtts.subWindowAtts.win16.layer = 0
+SaveWindowAtts.subWindowAtts.win16.transparency = 0
+SaveWindowAtts.subWindowAtts.win16.omitWindow = 0
+SaveWindowAtts.opts.types = (5)
+SaveWindowAtts.opts.help = ""
+SetSaveWindowAttributes(SaveWindowAtts)
+SaveWindow()

@@ -21,8 +21,8 @@ parser.add_argument('--pf', default=0.3, type=float, help='Packing Factor')
 parser.add_argument('--seed', default=1, type=int, help='Randomization seed')
 args=parser.parse_args()
 
-geometry_prob_lo = [0.0,-0.1, -0.1]
-geometry_prob_hi = [0.4, 0.1, 0.1]
+geometry_prob_lo = [0.0,-0.05, -0.05]
+geometry_prob_hi = [0.4, 0.05, 0.05]
 
 
 db = simba.open(spath)
