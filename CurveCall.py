@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 from CURVE import curve, outliers, reader
 import getpass, time
 
-var = ["output_1","output_2", "output_02", "output_002"]
-names = ["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
+var = ["output1100","output1300" ,"output1400","output1500", "output1700", "output1900"]#["output_1","output_2", "output_02", "output_002"]
+names = ["1100", "1300","1400","1500", "1700", "1900"] #["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
 st = [100,100,100]# ,100,100]
 dt = [0.1,0.1,0.1]# ,0.1,0.1]
 #var = ["outputap"]
@@ -20,10 +20,7 @@ dt = [0.1,0.1,0.1]# ,0.1,0.1]
 xsize = 10
 ysize = 8
 bar = 4
-if getpass.getuser() == "meierms":
-    inlab = False
-else:
-    inlab = True
+usr = getpass.getuser()
 
 j = 0
 fig1, ax = plt.subplots(figsize=(xsize,ysize))
@@ -31,11 +28,14 @@ fig2, bx = plt.subplots(figsize=(xsize,ysize))
 fig3, cx = plt.subplots(figsize=(xsize,ysize))
 
 h = time.localtime()
-name = "/home/meierms/solidphase/outs/Record_" + str(h[2]) + "_" + str(h[3]) + "_" + str(h[4])
+name = "/home/"+usr+"/solidphase/outs/Record_" + str(h[2]) + "_" + str(h[3]) + "_" + str(h[4])
 
 #with open(name, "a") as namei: 
 #    np.savetxt(var[0] + var[1])
-
+inlab = False
+if usr == "mmeierdo":
+    inlab = True
+    
 for i in var: 
     print(i)
     if not inlab:

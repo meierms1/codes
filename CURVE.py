@@ -8,9 +8,11 @@ Created on Thu Sep  8 12:43:25 2022
 
 import sys 
 import numpy as np
+import getpass 
 
 def reader(drt, steps, dt, rround = 2):
-    path = "/home/mmeierdo/solidphase/log/contourCurves_" + drt 
+    usr = getpass.getuser()
+    path = "/home/"+usr+"/solidphase/log/contourCurves_" + drt 
     xtime = [0.0]
     time = []
     c = 0
@@ -50,8 +52,9 @@ def reader(drt, steps, dt, rround = 2):
     
 
 def curve(fld, drt = "contourCurves", rround = 2):
+    usr = getpass.getuser()
 
-    path = "/home/meierms/solidphase/outs/"+ fld +"/" 
+    path = "/home/"+usr+"/solidphase/outs/"+ fld +"/" 
         
     a={}
     with open(path + "metadata") as f:

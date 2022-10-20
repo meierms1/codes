@@ -60,7 +60,10 @@ for i in a.keys():
 
 steps = 50
 if a["Status"][0] == "C":
-    steps = float(a["stop_time"]) / float(a["amr.plot_dt"])
+    try:
+        steps = float(a["stop_time"]) / float(a["amr.plot_dt"])
+    except:
+        steps = float(a["stop_time"]) / float(a["timestep"])
 else:
     g = ""
     for i in a["Status"]:
