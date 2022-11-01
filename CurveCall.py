@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 from CURVE import curve, outliers, reader
 import getpass, time
 
-var = ["output1100","output1300" ,"output1400","output1500", "output1700", "output1900"]#["output_1","output_2", "output_02", "output_002"]
-names = ["1100", "1300","1400","1500", "1700", "1900"] #["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
+var = ["output"]#["output_1","output_2", "output_02", "output_002"]
+names = ["P=4MPa"] #["P=2.0MPa","P=3.0MPa", "P=4.0MPa", "P=6.0MPa"] #, "400", "500"] 
 st = [100,100,100]# ,100,100]
-dt = [0.1,0.1,0.1]# ,0.1,0.1]
+dt = [0.5e-3,0.1,0.1]# ,0.1,0.1]
 #var = ["outputap"]
 #names = ["AP"]] 4567
 
@@ -35,7 +35,7 @@ name = "/home/"+usr+"/solidphase/outs/Record_" + str(h[2]) + "_" + str(h[3]) + "
 inlab = False
 if usr == "mmeierdo":
     inlab = True
-    
+inlab = False
 for i in var: 
     print(i)
     if not inlab:
