@@ -51,11 +51,11 @@ def reader(drt, steps, dt, rround = 2):
     
     
 
-def curve(fld, drt = "contourCurves", rround = 2):
+def curve(fld, drt = "contourCurves", subfile ="outs2", rround = 2):
     usr = getpass.getuser()
 
-    path = "/home/"+usr+"/solidphase/outs/"+ fld +"/" 
-        
+    path = "/home/"+usr+"/solidphase/"+subfile+"/"+ fld +"/" 
+    #path = "/home/mmeierdo/fsfile/" + fld + "/"
     a={}
     with open(path + "metadata") as f:
         for line in f: 
@@ -76,6 +76,7 @@ def curve(fld, drt = "contourCurves", rround = 2):
     steps = 50
     if a["Status"][0] == "C":
         steps = int(float(a["stop_time"]) / float(a["amr.plot_dt"]))
+        #steps = int(10000)
     else:
         g = ""
         for i in a["Status"]:
