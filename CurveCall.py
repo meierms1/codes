@@ -12,7 +12,7 @@ import getpass, time
 
 #var = ["shape1MPA", "shape2MPA", "shape4MPA", "output"] #["output4MPa", "output2", "output3"] 
 #names = ["P=1MPa", "P=2MPa", "P=4MPa", "new"] 
-var = ["output"] ;  names = ["output"]
+var = ["output2", "output4", "output6"] ;  names = ["P=2MPa", "P=4MPa", "P=6MPa"]
 
 st = [100,100,100]# ,100,100]
 dt = [0.5e-3,0.1,0.1]# ,0.1,0.1]
@@ -23,7 +23,7 @@ xsize = 10
 ysize = 8
 bar = 4
 usr = getpass.getuser()
-subfile = "outs"
+subfile = "Paper"
 
 j = 00
 fig1, ax = plt.subplots(figsize=(xsize,ysize))

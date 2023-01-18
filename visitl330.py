@@ -31,10 +31,10 @@ def savepic(path):
 
 fld = sys.argv[1] #"output_mix" 
 drt = "contourCurves"
-subfile = "outs"
+subfile = "Paper"
 usr = getpass.getuser()
 prt = "/home/"+usr+"/solidphase/"+subfile+"/"+fld+"/"
-#prt = "/home/" + usr + "/overnight/" + fld + "/" 
+#prt = "/home/" + usr + "/solidphase/" + fld + "/" 
 path = os.path.join(prt,drt)
 
 try: 

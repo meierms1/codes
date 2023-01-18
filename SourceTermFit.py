@@ -90,14 +90,14 @@ for P in p:
         high = 210
         
     y,z = fitline(P, xx, low, high)
-    plt.plot(xx, yy, label = "Experiment "+str(P)+"MPa" , c = "black" )
-    plt.plot(xx, z, label = "Model "+str(P)+"MPa" , ls = "-.")
+    plt.plot(xx, yy, label ="Experiment " + str(P)+"MPa" , c = "black" )
+    plt.plot(xx, z, label = "Model " +str(P)+"MPa" , ls = "-.")
 plt.legend(prop={'size': 9}) 
 plt.xlabel("Spacial Variable" ) 
 plt.ylabel("Heat Flux - [kW / cm^2]" )
 plt.title("Heat Flux Data Fitting")
-plt.savefig("EpsFit", format = "eps" )
-plt.savefig("PngFit", format = "png" )
+plt.savefig("EpsFit1", format = "eps" )
+plt.savefig("PngFit1", format = "png" )
 
 '''    
 int_exp = sp(yy,xx)    
