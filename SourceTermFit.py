@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd 
 from scipy.integrate import simpson as sp 
 
-p = [0.1, 1, 2, 6, 10] ## MPa Units, Accepts: [0.1, 1, 2, 6, 10] 
+p = [0.1, 1.0, 2.0, 6.0, 10.0] ## MPa Units, Accepts: [0.1, 1, 2, 6, 10] 
 def fitline(P, xx, low, high):
     k1 = 0.46 * P + 0.42 - 1
     k2 = 1.14 * P + 0.323 - 1 
@@ -60,7 +60,8 @@ df_100atm_x = df.values[:171,0]
 df_100atm_y = df.values[:171,1]
 
 a = 1.0 
-
+c = ['lightseagreen','yellowgreen','gold','darkorange','orangered']
+v = 0
 for P in p: 
 
     if P == 10:
@@ -90,14 +91,16 @@ for P in p:
         high = 210
         
     y,z = fitline(P, xx, low, high)
-    plt.plot(xx, yy, label ="Experiment " + str(P)+"MPa" , c = "black" )
-    plt.plot(xx, z, label = "Model " +str(P)+"MPa" , ls = "-.")
-plt.legend(prop={'size': 9}) 
-plt.xlabel("Spacial Variable" ) 
-plt.ylabel("Heat Flux - [kW / cm^2]" )
-plt.title("Heat Flux Data Fitting")
-plt.savefig("EpsFit1", format = "eps" )
-plt.savefig("PngFit1", format = "png" )
+    plt.plot(xx, yy, label = str(P)+" MPa (Data)",ls = '--', c = c[v])
+    plt.plot(xx, z, label = str(P)+" MPa (Fit)" , ls = "-", c=c[v])
+    v += 1
+plt.legend(prop={'size':9}) 
+plt.xlabel("Spatial Variable" ) 
+plt.ylabel("Heat Flux  [kW / cm$^2$]" )
+#plt.title("Heat Flux Data Fitting")
+plt.grid()
+plt.savefig("/home/mmeierdo/Paper_Folder/EpsFit1.pdf", format = "pdf" )
+
 
 '''    
 int_exp = sp(yy,xx)    

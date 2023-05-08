@@ -54,7 +54,7 @@ def reader(drt, steps, dt, rround = 2):
 def curve(fld, drt = "contourCurves", subfile ="outs2", rround = 2):
     usr = getpass.getuser()
 
-    path = "/home/"+usr+"/solidphase/"+subfile+"/"+ fld +"/" 
+    path = "/home/"+usr+"/solidphase/"+ fld +"/" 
     #path = "/home/mmeierdo/fsfile/" + fld + "/"
     a={}
     with open(path + "metadata") as f:

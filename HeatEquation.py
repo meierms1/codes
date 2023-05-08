@@ -21,7 +21,7 @@ kh = 0.13
 cph = 2418.29
 rhoh = 920
 
-Pressure = 1
+Pressure = 4.
 
 alp=1 #/1.7789
 #alp = 0.601
@@ -29,14 +29,14 @@ alp=1 #/1.7789
 
 ini = 0
 
-time = 2
-def exact(x,t,Ti = 275,P = 1.0, k = 0.4186e0, cp = 1297.9, rho = 1950, div=1):
+time = .2
+def exact(x,t,Ti = 350,P = 4.0, k = 1*0.4186e0, cp = 1297.9, rho = 1950, div=1):
     #pass
     alpha = k / cp / rho     
     
     #q = P * 1.123e7 + 3.448e6
-    q = 1e7 #P * 4.772e6 + 1.409e6
-    q = alp * q
+    q = 1e6  #P * 4.772e6 + 1.409e6
+    q =  k*q
     T = []
     H = x[-1]
     for xx in x:
@@ -47,7 +47,7 @@ def exact(x,t,Ti = 275,P = 1.0, k = 0.4186e0, cp = 1297.9, rho = 1950, div=1):
         
     return T, x
 
-r = np.loadtxt("/home/" + user + "/solidphase/outs/autput/contourCurves1664913955/heatprofile0000.curve", skiprows=0)
+r = np.loadtxt("/home/" + user + "/adding/heat50001.curve", skiprows=0)
 x1 = r[ini:,0]
 delta = r[ini,0] - 0
 #x1 = [i-delta for i in r[ini:,0]]

@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 14 09:45:28 2022
+
+@author: mmeierdo
+"""
+
+import visit
+import os 
+import time 
+import sys
+import getpass
+#import simba
+
+def savepic(path):
+    SaveWindowAtts = SaveWindowAttributes()
+    SaveWindowAtts.outputToCurrentDirectory = 0
+    SaveWindowAtts.outputDirectory = path
+    SaveWindowAtts.fileName = "lasframe"
+    SaveWindowAtts.family = 1
+    SaveWindowAtts.format = SaveWindowAtts.PNG  # BMP, CURVE, JPEG, OBJ, PNG, POSTSCRIPT, POVRAY, PPM, RGB, STL, TIFF, ULTRA, VTK, PLY, EXR
+    SaveWindowAtts.width = 1024
+    SaveWindowAtts.height = 1024
+    SaveWindowAtts.screenCapture = 0
+    SaveWindowAtts.saveTiled = 0    
+    SaveWindowAtts.quality = 80
+    SaveWindowAtts.progressive = 0
+    SaveWindowAtts.binary = 0
+    SaveWindowAtts.stereo = 0
+    SaveWindowAtts.compression = SaveWindowAtts.None  # NONE, PackBits, Jpeg, Deflate, LZW
+    SaveWindowAtts.forceMerge = 0
+    SaveWindowAtts.resConstraint = SaveWindowAtts.ScreenProportions  # NoConstraint, EqualWidthHeight, ScreenProportions
+    SaveWindowAtts.pixelData = 1
+    SaveWindowAtts.advancedMultiWindowSave = 0
+    SaveWindowAtts.opts.types = ()
+    SaveWindowAtts.opts.help = ""
+    SetSaveWindowAttributes(SaveWindowAtts)
+    SaveWindow()
+
+#fld = sys.argv[1] #"output_mix
+
+var = ['PureAP/output.old.20221214102711', 'PureAP/output.old.20221214101212', 'PureAP/output.old.20221214095810', 'PureAP/output.old.20221214103457', 'PureAP/output.old.20221214100503', 'PureAP/output.old.20221214101936', 'PureAP/output.old.20221214095131', 'PureAP/output.old.20221214104756', 'PureAP/output.old.20221214110144', 'PureAP/output.old.20221214110900', 'PureAP/output.old.20221214140411', 'PureAP/output.old.20221214143419', 'PureAP/output.old.20221214150914', 'PureAP/output.old.20221214121857', 'PureAP/output.old.20221214145402', 'PureAP/output.old.20221214151528', 'PureAP/output.old.20221214130653', 'PureAP/output.old.20221214142146', 'PureAP/output.old.20221214144713', 'PureAP/output.old.20221214112402', 'PureAP/output.old.20221214153457', 'PureAP/output.old.20221214125412', 'PureAP/output.old.20221214120459', 'PureAP/output.old.20221214154149', 'PureAP/output.old.20221214133406', 'PureAP/output.old.20221214132006', 'PureAP/output.old.20221214160728', 'PureAP/output.old.20221214123849', 'PureAP/output.old.20221214123201', 'PureAP/output.old.20221214114346', 'PureAP/output.old.20221214141105', 'PureAP/output.old.20221214155458', 'PureAP/output.old.20221214162028', 'PureAP/output.old.20221214141806', 'PureAP/output.old.20221214162716', 'PureAP/output.old.20221214135102', 'PureAP/output.old.20221214115038', 'PureAP/output.old.20221214154854', 'PureAP/output.old.20221214121237', 'PureAP/output.old.20221214144042', 'PureAP/output.old.20221214163418', 'PureAP/output.old.20221214161349', 'PureAP/output.old.20221214105444', 'PureAP/output.old.20221214130030', 'PureAP/output.old.20221214160108', 'PureAP/output.old.20221214115743', 'PureAP/output.old.20221214125254', 'PureAP/output.old.20221214152151', 'PureAP/output.old.20221214104125', 'PureAP/output.old.20221214113704', 'PureAP/output.old.20221214150054', 'PureAP/output.old.20221214122526', 'PureAP/output.old.20221214133824', 'PureAP/output.old.20221214150306', 'PureAP/output.old.20221214132705', 'PureAP/output.old.20221214135737', 'PureAP/output.old.20221214131323', 'PureAP/output.old.20221214142800', 'PureAP/output.old.20221214152817', 'PureAP/output.old.20221214111624', 'PureAP/output.old.20221214134441', 'PureAP/output.old.20221214113030', 'PureAP/output.old.20221214124546', 'PureAP/output.old.20221214193203', 'PureAP/output.old.20221214194344', 'PureAP/output.old.20221214211614', 'PureAP/output.old.20221214200848', 'PureAP/output.old.20221214220513', 'PureAP/output.old.20221214165907', 'PureAP/output.old.20221214172520', 'PureAP/output.old.20221214193751', 'PureAP/output.old.20221214202708', 'PureAP/output.old.20221214222425', 'PureAP/output', 'PureAP/output.old.20221214212838', 'PureAP/output.old.20221214210431', 'PureAP/output.old.20221214212219', 'PureAP/output.old.20221214223004', 'PureAP/output.old.20221214171225', 'PureAP/output.old.20221214184816', 'PureAP/output.old.20221214215908', 'PureAP/output.old.20221214203308', 'PureAP/output.old.20221214224740', 'PureAP/output.old.20221214173120', 'PureAP/output.old.20221214183445', 'PureAP/output.old.20221214214145', 'PureAP/output.old.20221214201532', 'PureAP/output.old.20221214173734', 'PureAP/output.old.20221214180949', 'PureAP/output.old.20221214164627', 'PureAP/output.old.20221214182818', 'PureAP/output.old.20221214211018', 'PureAP/output.old.20221214184125', 'PureAP/output.old.20221214164019', 'PureAP/output.old.20221214171922', 'PureAP/output.old.20221214180354', 'PureAP/output.old.20221214185407', 'PureAP/output.old.20221214194945', 'PureAP/output.old.20221214213509', 'PureAP/output.old.20221214192514', 'PureAP/output.old.20221214203917', 'PureAP/output.old.20221214200219', 'PureAP/output.old.20221214214727', 'PureAP/output.old.20221214221128', 'PureAP/output.old.20221214182200', 'PureAP/output.old.20221214215313', 'PureAP/output.old.20221214205847', 'PureAP/output.old.20221214165243', 'PureAP/output.old.20221214174356', 'PureAP/output.old.20221214195558', 'PureAP/output.old.20221214204535', 'PureAP/output.old.20221214170541', 'PureAP/output.old.20221214190001', 'PureAP/output.old.20221214225355', 'PureAP/output.old.20221214230017', 'PureAP/output.old.20221214190605', 'PureAP/output.old.20221214181548', 'PureAP/output.old.20221214191218', 'PureAP/output.old.20221214205203', 'PureAP/output.old.20221214221751', 'PureAP/output.old.20221214223548', 'PureAP/output.old.20221214175706', 'PureAP/output.old.20221214175024', 'PureAP/output.old.20221214191840', 'PureAP/output.old.20221214224140', 'PureAP/output.old.20221214202117'] 
+
+for record in var:
+    fld = record
+    drt = "contourCurves"
+    subfile = "PureAP"
+    usr = getpass.getuser()
+    prt = "/home/"+usr+"/solidphase/"+fld+"/"
+
+    path = os.path.join(prt,drt)
+
+    try: 
+        os.mkdir(path)
+    except: 
+        t = int(time.time())
+        drt2 = "contourCurves" + str(t)
+        path2 = os.path.join(prt,drt2)
+        os.rename(path, path2)
+        os.mkdir(path)
+
+    
+    a={}
+    with open(prt + "metadata") as f:
+        for line in f: 
+            if line[0] != "#" and line[0] != "\n" and line[0] != " ":
+                #print(line)
+                k,v = line.split(" = ")
+                v = v.split(" #")[0]
+                a[k] = v
+    special = ["geometry.prob_lo", "geometry.prob_hi", "amr.n_cell", "phi.ic.laminate.center"]
+    for i in a.keys():
+        a[i] = a[i].replace("\n", "")
+        if " " in a[i]:
+            if i not in special:
+                a[i] = a[i].replace(" ", '')
+    
+    steps = 50
+    if a["Status"][0] == "C":
+        try:
+            steps = float(a["stop_time"]) / float(a["amr.plot_dt"])
+        except:
+            steps = float(a["stop_time"]) / float(a["timestep"])
+    else:
+        g = ""
+        for i in a["Status"]:
+            if i <= '9' and i >= '0':
+                g += i 
+        steps = float(g) / 100 * float(a["stop_time"]) / float(a["amr.plot_dt"])
+    print(steps)
+    OpenDatabase("localhost:/home/"+usr+"/solidphase/"+fld+"/celloutput.visit", 0)
+
+
+    AddPlot("Contour", "eta", 1, 1)
+    ContourAtts = ContourAttributes()
+    ContourAtts.contourNLevels = 1
+    ContourAtts.contourValue = ()
+    ContourAtts.contourPercent = ()
+    ContourAtts.contourMethod = ContourAtts.Level
+    ContourAtts.minFlag = 0
+    ContourAtts.maxFlag = 0
+    ContourAtts.min = 0
+    ContourAtts.max = 1
+    ContourAtts.scaling = ContourAtts.Linear  # Linear, Log
+    ContourAtts.wireframe = 0
+    SetPlotOptions(ContourAtts)
+    DrawPlots()
+
+    for i in range(int(steps)):
+        SaveWindowAtts = SaveWindowAttributes()
+        SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POA, VTK, PLY, EXR
+        SaveWindowAtts.outputToCurrentDirectory = 0
+        SaveWindowAtts.outputDirectory = path
+        SaveWindowAtts.fileName = "visit"
+        SaveWindowAtts.family = 1  
+        SaveWindowAtts.width = 1024
+        SaveWindowAtts.height = 1024
+        SaveWindowAtts.screenCapture = 0
+        SaveWindowAtts.saveTiled = 0
+        SaveWindowAtts.quality = 80
+        SaveWindowAtts.progressive = 0
+        SaveWindowAtts.binary = 0
+        SaveWindowAtts.stereo = 0
+        SaveWindowAtts.compression = SaveWindowAtts.None
+        SaveWindowAtts.forceMerge = 0
+        SaveWindowAtts.resConstraint = SaveWindowAtts.ScreenProportions  # NoConstraint, EqualWidthHeight, ScreenProportions
+        SaveWindowAtts.pixelData = 1
+        SaveWindowAtts.advancedMultiWindowSave = 0
+        SaveWindowAtts.opts.types = (5)
+        SaveWindowAtts.opts.help = ""
+        SetSaveWindowAttributes(SaveWindowAtts)
+        SaveWindow()
+        if i == steps-1: 
+            savepic(path)
+        TimeSliderNextState()
+        
+    DeleteActivePlots()
+    OpenDatabase("localhost:/home/"+usr+"/solidphase/"+fld+"/celloutput.visit")
+
+    

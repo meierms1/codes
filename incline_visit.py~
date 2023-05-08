@@ -2,6 +2,7 @@ import visit
 import os 
 import time 
 import sys
+import getpass
 
 def savepic(path):
     SaveWindowAtts = SaveWindowAttributes()
@@ -29,16 +30,20 @@ def savepic(path):
     SaveWindow()
 
 fld = sys.argv[1] #"output_mix" 
-drt = "contourCurves" 
-prt = "/home/mmeierdo/incline-mmfs/"+fld+"/"
+drt = "contourCurves"
+subfile = "outs"
+usr = getpass.getuser()
+prt = "/home/"+usr+"/solidphase/"+subfile+"/"+fld+"/"
+#prt = "/home/" + usr + "/overnight/" + fld + "/" 
 path = os.path.join(prt,drt)
 
 try: 
     os.mkdir(path)
 except: 
     t = int(time.time())
-    drt = "contourCurves" + str(t)
-    path = os.path.join(prt,drt)
+    drt2 = "contourCurves" + str(t)
+    path2 = os.path.join(prt,drt2)
+    os.rename(path, path2)
     os.mkdir(path)
 
     
@@ -70,8 +75,7 @@ else:
             g += i 
     steps = float(g) / 100 * float(a["stop_time"]) / float(a["amr.plot_dt"])
 print(steps)
-OpenDatabase("localhost:/home/meierms/incline-mmfs/"+fld+"/celloutput.visit", 0)
-#OpenDatabase("localhost:/home/mmeierdo/solidphase/outs/output/celloutput.visit", 0)
+OpenDatabase("localhost:/home/"+usr+"/solidphase/"+subfile+"/output/celloutput.visit", 0)
 
 
 AddPlot("Contour", "eta", 1, 1)
