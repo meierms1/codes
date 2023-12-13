@@ -12,10 +12,11 @@ import sys
 
 path = "/mmfs1/home/mmeierdo/Homogeneous"
 save_folder = "curve"
-remove_existing_folder = 0 # 0 doesnt remove and cancel process, 1 removes the folder
+extended_file = "celloutput.visit" #"nodeoutput.visit"
+remove_existing_folder = 1 # 0 doesnt remove and cancel process, 1 removes the folder
 
 var = os.listdir(path)
-#var = ["output-laminatev"] # Overwrite list of directories
+#var = ["output-2d"] # Overwrite list of directories
 
 def savepic(path):
     SaveWindowAtts = SaveWindowAttributes()
@@ -57,17 +58,21 @@ def read_metadata(path):
             if i not in special:
                 a[i] = a[i].replace(" ", '')        
     steps = 50
+    if "amr.plot_dt" in a.keys():
+        plot_dt = float(a["amr.plot_dt"])
+    else:
+        plot_dt = float(a["timestep"]) * float(a["amr.plot_int"])
     if a["Status"][0] == "C":
         try:
-            steps = float(a["stop_time"]) / float(a["amr.plot_dt"])
+            steps = float(a["stop_time"]) / plot_dt
         except:
-            steps = float(a["stop_time"]) / float(a["timestep"])
+            steps = float(a["stop_time"]) / float(a["plot_int"])
     else:
         g = ""
         for i in a["Status"]:
             if i <= '9' and i >= '0':
                 g += i 
-        steps = float(g) / 100 * float(a["stop_time"]) / float(a["amr.plot_dt"])
+        steps = float(g) / 100 * float(a["stop_time"]) / plot_dt
     return steps 
 
 def isocontour_loop(path, steps, nodecell = "celloutput.visit", save_lastframe = False):   
@@ -122,6 +127,8 @@ for record in var:
     record_path = os.path.join(path,record)
     if not os.path.isdir(record_path):
         raise ValueError("This record does not exist")
+    if not os.path.isfile(record_path+"/"+extended_file):
+        raise ValueError(f"{extended_file} does not exist")
     try: 
         os.mkdir(record_path+"/"+save_folder)
     except: 
@@ -131,7 +138,7 @@ for record in var:
         else:
             raise ValueError("Trying to create folder that already exists")    
     steps = read_metadata(record_path)
-    isocontour_loop(record_path, steps)
+    isocontour_loop(record_path, steps, nodecell=extended_file)
     counter += 1
 print(f"{counter} total records were sucessfully processed")
 
