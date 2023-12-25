@@ -10,14 +10,15 @@ import visit
 import os, shutil
 import sys
 
-path = "/mmfs1/home/mmeierdo/Homogeneous"
+path = "/mmfs1/home/mmeierdo/homogeneous"
 save_folder = "curve"
 extended_file = "celloutput.visit" #"nodeoutput.visit"
 remove_existing_folder = 1 # 0 doesnt remove and cancel process, 1 removes the folder
 
 var = os.listdir(path)
 #var = ["output-2d"] # Overwrite list of directories
-
+print(var) 
+    
 def savepic(path):
     SaveWindowAtts = SaveWindowAttributes()
     SaveWindowAtts.outputToCurrentDirectory = 0
@@ -75,7 +76,7 @@ def read_metadata(path):
         steps = float(g) / 100 * float(a["stop_time"]) / plot_dt
     return steps 
 
-def isocontour_loop(path, steps, nodecell = "celloutput.visit", save_lastframe = False):   
+def isocontour_loop(path, steps, folder = "curves", nodecell = "celloutput.visit", save_lastframe = False):   
     OpenDatabase("localhost:"+path+"/"+nodecell, 0)
     AddPlot("Contour", "eta", 1, 1)
     ContourAtts = ContourAttributes()
@@ -95,7 +96,7 @@ def isocontour_loop(path, steps, nodecell = "celloutput.visit", save_lastframe =
         SaveWindowAtts = SaveWindowAttributes()
         SaveWindowAtts.format = SaveWindowAtts.CURVE  # BMP, CURVE, JPEG, OBJ, PNG, POA, VTK, PLY, EXR
         SaveWindowAtts.outputToCurrentDirectory = 0
-        SaveWindowAtts.outputDirectory = path
+        SaveWindowAtts.outputDirectory = path+"/"+folder
         SaveWindowAtts.fileName = "visit"
         SaveWindowAtts.family = 1  
         SaveWindowAtts.width = 1024
@@ -123,6 +124,7 @@ def isocontour_loop(path, steps, nodecell = "celloutput.visit", save_lastframe =
 
 
 counter = 0
+total = len(var)
 for record in var:
     record_path = os.path.join(path,record)
     if not os.path.isdir(record_path):
@@ -138,8 +140,9 @@ for record in var:
         else:
             raise ValueError("Trying to create folder that already exists")    
     steps = read_metadata(record_path)
-    isocontour_loop(record_path, steps, nodecell=extended_file)
+    isocontour_loop(record_path, steps, folder = save_folder, nodecell=extended_file)
     counter += 1
+    print(f"Processed {counter}/{total}"
 print(f"{counter} total records were sucessfully processed")
 
     

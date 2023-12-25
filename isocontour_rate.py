@@ -9,12 +9,15 @@ import getpass, time
 import os, shutil
 import sys
 
-path = "/mmfs1/home/mmeierdo/Homogeneous"
+path = "/mmfs1/home/mmeierdo/homogeneous"
 save_folder = "curve"
-remove_existing_folder = 1 # 0 doesnt remove and cancel process, 1 removes the folder
+remove_existing_folder = 0 # 0 doesnt remove and cancel process, 1 removes the folder
 var = os.listdir(path)
 #var = ["output-2d"] # Overwrite list of directories
-
+if "results" in var:
+    var.pop(var.index("results"))            
+print(var) 
+print(f"Number of records: {len(var)}")
 def read_metadata(path):
     a={}
     with open(path + "/metadata") as f:
@@ -47,16 +50,16 @@ def read_metadata(path):
         steps = float(g) / 100 * float(a["stop_time"]) / plot_dt
 
     
-    return steps, plot_dt, a["pressure.P"], a["thermal.massfraction"], a["phi.ic.constant.value"]
+    return int(steps), plot_dt, a["pressure.P"], a["thermal.massfraction"], a["phi.ic.constant.value"]
 
 def curve(path, steps, dt, rround = 2, smooth=False, nread = 2):
     xtime = [0.0]
     time = []
-    for i in range(steps+1):
+    for i in range(int(steps)+1):
         time.append(round(dt*i, rround))
     c = 0
     listtrack=[]
-    for i in range(steps):
+    for i in range(int(steps)):
         if i < 10: 
             add = "000"
         elif i < 100 and i >=  10:
@@ -96,7 +99,7 @@ def curve(path, steps, dt, rround = 2, smooth=False, nread = 2):
             ni+=1
     xx = [1000 * i for i in xtime]
     dx = []
-    for i in range(steps):
+    for i in range(int(steps)):
         value = (xtime[i+1] - xtime[i]) / dt
         dx.append(value)
     
@@ -128,11 +131,16 @@ def moveave(vec, n=2):
         i += 1
     return ans
 
-
-for record in var: 
+counter = 0 
+for record in var:
+    print(record)
     record_path = os.path.join(path,record)
     steps, dt, pressure, massfraction, phi = read_metadata(record_path)
-    time_, point, speed, _ = curve(os.path.join(record_path, save_folder), steps, dt, rround = 4)
+    time_, point, speed, _ = curve(os.path.join(record_path, save_folder), int(steps), dt, rround = 4)
+    #input_info = np.array([["pressure", "massfraction","phi"], [pressure, massfraction, phi]])
+    input_info = np.array([float(pressure),float(massfraction), float(phi)])
+    if not os.path.isdir(path+"/results/"+record):
+        os.mkdir(path+"/results/"+record)
 
     name = path+"/results/"+record+"/time.txt"
     with open(name, "a") as namei: 
@@ -148,5 +156,7 @@ for record in var:
 
     name = path+"/results/"+record+"/inputs.txt"
     with open(name, "a") as namei: 
-        np.savetxt(namei,[pressure, massfraction, phi]); namei.write("\n") 
+        np.savetxt(namei,input_info); namei.write("\n")
 
+    print(f"Progress {counter}/{len(var)} ")
+    counter+=1 
