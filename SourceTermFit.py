@@ -12,6 +12,7 @@ import pandas as pd
 from scipy.integrate import simpson as sp 
 
 p = [0.1, 1.0, 2.0, 6.0, 10.0] ## MPa Units, Accepts: [0.1, 1, 2, 6, 10] 
+peak = []
 def fitline(P, xx, low, high):
     k1 = 0.46 * P + 0.42 - 1
     k2 = 1.14 * P + 0.323 - 1 
@@ -91,15 +92,27 @@ for P in p:
         high = 210
         
     y,z = fitline(P, xx, low, high)
+    peak.append(max(y))
     plt.plot(xx, yy, label = str(P)+" MPa (Data)",ls = '--', c = c[v])
     plt.plot(xx, z, label = str(P)+" MPa (Fit)" , ls = "-", c=c[v])
     v += 1
+
 plt.legend(prop={'size':9}) 
 plt.xlabel("Spatial Variable" ) 
 plt.ylabel("Heat Flux  [kW / cm$^2$]" )
 #plt.title("Heat Flux Data Fitting")
 plt.grid()
-plt.savefig("/home/mmeierdo/Paper_Folder/EpsFit1.pdf", format = "pdf" )
+
+print(p)
+print(peak)
+pout = ""
+for i,j in zip(p,peak):
+    pout += f"({i},{j}),"
+print(pout)
+plt.figure()
+plt.plot(p, peak)
+plt.show()
+#plt.savefig("/home/mmeierdo/Paper_Folder/EpsFit1.pdf", format = "pdf" )
 
 
 '''    

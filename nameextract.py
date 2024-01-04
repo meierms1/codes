@@ -8,7 +8,7 @@ Created on Thu Dec 15 08:54:02 2022
 import simba 
 
 db = simba.open()
-table = db.getTable("PureAP")
+table = db.getTable("Tests")
 records = table.get()
 namelist = [] 
 for record in records:
