@@ -16,9 +16,12 @@ def moving_average(a, n=3):
 def moving_averages(x, n):
     return np.convolve(x, np.ones(n), 'valid') / n
 
+
+format_ = "png" #"pdf"
+dpi_ = 600
 dirs = ['output-anchor','output-double-circle','output-simple-circle','output-star']
 
-home = "/home/meier/Paper_Scitech/"
+home = "/home/meier/design_Paper/results/void/"
 file = "/area.curve"
 sv = [home for i in dirs]
 dirs = [home + i + file for i in dirs]
@@ -39,7 +42,7 @@ plt.ylabel("Surface Area [m]")
 plt.xlabel("Timestep [-]")
 plt.title("Anchor")
 plt.grid()
-plt.savefig(fname= sv[0] + "/anchor.pdf", dpi = 600, format = "pdf")
+plt.savefig(fname= sv[0] + f"anchor.{format_}", dpi = dpi_, format = format_)
 
 first = data[1]
 x,y = first[:,0], first[:,1]
@@ -49,7 +52,7 @@ plt.ylabel("Surface Area [m]")
 plt.xlabel("Timestep [-]")
 plt.title("Double Circle")
 plt.grid()
-plt.savefig(fname= sv[1] + "/doublecircle.pdf", dpi = 600, format = "pdf")
+plt.savefig(fname= sv[1] + f"doublecircle.{format_}", dpi = dpi_, format = format_)
 
 first = data[2]
 x,y = first[:,0], first[:,1]
@@ -60,7 +63,7 @@ plt.ylabel("Surface Area [m]")
 plt.xlabel("Timestep [-]")
 plt.title("Simple Circle")
 plt.grid()
-plt.savefig(fname= sv[2] + "/simplecircle.pdf", dpi = 600, format = "pdf")
+plt.savefig(fname= sv[2] + f"simplecircle.{format_}", dpi = dpi_, format = format_)
 
 first = data[3]
 x,y = first[:,0], first[:,1]
@@ -70,4 +73,4 @@ plt.ylabel("Surface Area [m]")
 plt.xlabel("Timestep [-]")
 plt.title("Star")
 plt.grid()
-plt.savefig(fname= sv[3] + "/star.pdf", dpi = 600, format = "pdf")
+plt.savefig(fname= sv[3] + f"star.{format_}", dpi = dpi_, format = format_)
